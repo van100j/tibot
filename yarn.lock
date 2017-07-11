@@ -17,6 +17,10 @@ array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
 
+compress@^0.99.0:
+  version "0.99.0"
+  resolved "https://registry.yarnpkg.com/compress/-/compress-0.99.0.tgz#97e301c25c4d01f097d85103f65eccb2e7796502"
+
 content-disposition@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.2.tgz#0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"

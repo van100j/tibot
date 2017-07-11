@@ -9,7 +9,7 @@ const app = express();
 //   });
 // });
 // app.use(router);
-
+app.use(express.compress());
 app.use(express.static('client/dist'))
 
 module.exports = app;
