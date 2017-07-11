@@ -20,7 +20,13 @@ wss.on('connection', (ws) => {
             const { parameters, action, fulfillment } = response.result;
             const output = doIntent(action, parameters);
 
-            return ws.send(JSON.stringify({type: 'bot', msg: output}));
+            if (output) {
+              return ws.send(JSON.stringify({type: 'bot', msg: output}));
+            } else if (fulfillment.speech) {
+              return ws.send(JSON.stringify({type: 'bot', msg: fulfillment.speech}));
+            }
+
+            throw new Error('Can\'t understand that');
           })
           .catch(error =>
             ws.send(JSON.stringify({type: 'bot', msg: 'Didn\'t quite get that?'}))
