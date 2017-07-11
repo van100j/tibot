@@ -1,0 +1,17 @@
+<ul class="msgs" #chatMsgs>
+  <li
+    *ngFor="let input of msgs"
+    [ngClass]="{'user': input.type === 'user', 'bot': input.type === 'bot'}"
+  >{{ input.msg }}</li>
+  <li class="bot" *ngIf="botIsTyping">
+    <span>.</span>
+    <span>.</span>
+    <span>.</span>
+  </li>
+</ul>
+
+<div class="chat-input">
+  <form (submit)="onSubmit()">
+    <input [(ngModel)]="userMsg" name="userMsg" class="chat-input-text" type="text" placeholder="Ask something...">
+  </form>
+</div>
