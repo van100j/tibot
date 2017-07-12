@@ -12,8 +12,6 @@ import 'rxjs/add/observable/range';
 import 'rxjs/add/observable/timer';
 import 'rxjs/add/observable/dom/webSocket';
 
-import 'rxjs/add/operator/do';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
