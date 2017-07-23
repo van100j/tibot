@@ -48,7 +48,7 @@ npm install # or yarn install
 npm start # or yarn start, or ng serve
 ```
 
-Open [http://localhost:4200/](http://localhost:4200/) in your browser, the
+Open [http://localhost:4200/](http://localhost:4200/) in your browser, you should be able to see the app running.
 
 ## Live Demo
 
