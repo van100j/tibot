@@ -1,6 +1,11 @@
-# TiBot — The Date and Time  Bot
+# TiBot
+> The Date and Time Bot
 
 A simple bot app which enables users to ask about the current date and time, calculate between dates, determine how many days until another date, etc.
+
+* [Requirements](#requirements)
+* [Getting Started](#getting-started)
+* [Live Demo](#live-demo)
 
 ## Requirements
 
@@ -20,33 +25,56 @@ You will also need [Google Maps API](https://developers.google.com/maps/get-star
 
 You can start by cloning this repo:
 
-```shell
-git clone
+```bash
+git clone git@github.com:van100j/tibot.git
 ```
 
 Create your `.env` file which contains your development environment, including the APIs keys, simply copy the `.env.sample` file to `.env`
-```shell
+```bash
 cp .env.sample .env
 ```
 and update it accordingly with your API.AI and Google Maps API keys.
 
 Install server dependencies at the root of the directory, and start the Express app:
-```shell
-npm install
-npm start
+```bash
+npm install # or yarn install
+npm start # or yarn start
 ```
 
 Install front end dependencies in the `./client` directory, and start the Angular app:
-```shell
+```bash
 cd client
-npm install
-npm start
+npm install # or yarn install
+npm start # or yarn start, or ng serve
 ```
 
-## The Front End
+Open [http://localhost:4200/](http://localhost:4200/) in your browser, the
 
+## Live Demo
 
+Live demo of the app is available at [https://ti-bot.herokuapp.com/](https://ti-bot.herokuapp.com/)
 
-Open [http://localhost:4200/](http://localhost:4200/) in your browser.
+You can start by typing your date and time related questions. Like the following date related ones:
+* how many days between today and New Year
+* is it the 21st of July in Korea
+* what day of the week is it today in Skopje
+* is it Friday tomorrow in Sydney
+* what date is tomorrow
+* do you know if it's July now
+* how many minutes passed since the the year 2013
+* how many days till November 23
+* now it's 2014 year right
+* I wonder which year are we in
 
-### Demo at https://the-date-bot.herokuapp.com/
+Or, these time related:
+* it's 5 o'clock in Berlin
+* convert Moscow time in Denver
+* what time is it in Mountain View
+* find time difference Paris Tokyo
+
+The bot also replies to small talk (I'm using [API.AI built-in small talk module](https://api.ai/docs/reference/small-talk)):
+* Hey, how are you
+* Who are you
+* Good evening
+* You are bad
+* etc...
