@@ -1,0 +1,237 @@
+{
+  "userSays": [
+    {
+      "id": "1b4a4fc4-8ed8-486f-abb2-6a88ef63a6bb",
+      "data": [
+        {
+          "text": "February",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " is coming isn\u0027t it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d78b195-1b32-4034-b32a-c8853f801116",
+      "data": [
+        {
+          "text": "do you know if it\u0027s "
+        },
+        {
+          "text": "March",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8881dbe-26b5-431b-b87a-0454496732f6",
+      "data": [
+        {
+          "text": "today is "
+        },
+        {
+          "text": "February",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9d96c64-4a66-468e-aad5-6cf134571aa1",
+      "data": [
+        {
+          "text": "it\u0027s "
+        },
+        {
+          "text": "December",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93cfb2c6-9f06-45b9-82f1-6878abb545a7",
+      "data": [
+        {
+          "text": "could you tell if it\u0027s "
+        },
+        {
+          "text": "May",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a85d63f5-7c29-46bf-abb3-e814ac6361db",
+      "data": [
+        {
+          "text": "tell me if it\u0027s "
+        },
+        {
+          "text": "July",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b607465e-f525-42e3-bee1-f1742f8cae74",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "May",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10a24c90-9faa-4cb5-8157-0fc7b6a2e8c5",
+      "data": [
+        {
+          "text": "check if "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "\u0027s "
+        },
+        {
+          "text": "April",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b86dcdfb-36c4-4cab-ad83-a591acb1abb7",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " still "
+        },
+        {
+          "text": "June",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fbaad9f5-4a6a-48ba-ac93-87316d5d4673",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "August",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " already"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "53e740b3-1f06-4699-bd80-d98d6ff94230",
+  "name": "date.month.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.month.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

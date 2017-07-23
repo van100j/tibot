@@ -1,0 +1,194 @@
+{
+  "userSays": [
+    {
+      "id": "9ceeca5c-03a2-43c5-ad9e-5abc042b5c77",
+      "data": [
+        {
+          "text": "now it\u0027s "
+        },
+        {
+          "text": "1989",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " year right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "654232cb-a244-4708-bdf1-3287e63c4eb9",
+      "data": [
+        {
+          "text": "is nowadays "
+        },
+        {
+          "text": "1990",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " year"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd21c92e-824f-46f9-8b4f-5366d76f1943",
+      "data": [
+        {
+          "text": "tell me if it\u0027s year "
+        },
+        {
+          "text": "2018",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eaf485fd-0ad1-4d81-ae9e-e23058f20b71",
+      "data": [
+        {
+          "text": "it\u0027s "
+        },
+        {
+          "text": "2019",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        },
+        {
+          "text": " isn\u0027t it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8389c0f-8094-4bbc-a264-8ac90e10d01c",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "2015",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68f2595c-c8c8-48a6-8a82-e5f7c454ab0b",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "year",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "2017",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee66ebee-2cbc-449d-8ddd-3240c6df4ab1",
+      "data": [
+        {
+          "text": "check if "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "\u0027s "
+        },
+        {
+          "text": "year",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "2016",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "df0a36bc-f4bc-45bd-9770-1dec0d384f03",
+  "name": "date.year.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.year.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

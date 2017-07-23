@@ -1,0 +1,378 @@
+{
+  "userSays": [
+    {
+      "id": "f7e77a48-f740-4a0d-ad80-36d4b4249858",
+      "data": [
+        {
+          "text": "is it "
+        },
+        {
+          "text": "Friday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Moscow",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37e29c68-369b-4477-b5cc-75c8d937e025",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "New Year",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Sunday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e625d125-e2ab-4ae0-a695-f0cd6fa90ab9",
+      "data": [
+        {
+          "text": "check if "
+        },
+        {
+          "text": "Thanksgiving",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "Tuesday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0a38b1f-c8f8-4a12-9880-fbb015a0a7b8",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "March 24",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Friday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4dde8c07-ec4e-436d-b348-a09074a528b0",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "24 of July",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Wednesday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "021b070f-a470-442d-8745-39371e7c2647",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Monday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36c3feed-9e9b-40d8-aa68-53108afe5872",
+      "data": [
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "Friday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        },
+        {
+          "text": " isn\u0027t it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "494288ce-1a4f-4ceb-904f-93a449832888",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Friday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Moscow",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3db57ec4-f180-4d01-818d-1434d71e8cf4",
+      "data": [
+        {
+          "text": "check if "
+        },
+        {
+          "text": "13th of November",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " is Wednesday"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95140697-b4b0-4c44-a1f7-6bcdaf258ecf",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "Thursday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8159f81e-e38b-4979-a91f-6db002152bfc",
+      "data": [
+        {
+          "text": "tell me if "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "Monday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Paris",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa46a111-02a8-407a-b952-f38efc58ce20",
+      "data": [
+        {
+          "text": "is it "
+        },
+        {
+          "text": "Friday",
+          "alias": "dayofweek",
+          "meta": "@dayofweek",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "081f756a-8767-4ce6-bf38-e84cf0ac7ca3",
+  "name": "date.day_of_week.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.day_of_week.check",
+      "affectedContexts": [
+        {
+          "name": "date-check",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@dayofweek",
+          "name": "dayofweek",
+          "value": "$dayofweek"
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date"
+        },
+        {
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

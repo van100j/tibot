@@ -1,0 +1,1233 @@
+{
+  "id": "e9c22258-c888-488e-9579-5f8c59731a59",
+  "name": "time-zone",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "ACDT",
+      "synonyms": [
+        "ACDT"
+      ]
+    },
+    {
+      "value": "ACST",
+      "synonyms": [
+        "ACST"
+      ]
+    },
+    {
+      "value": "ACT",
+      "synonyms": [
+        "ACT"
+      ]
+    },
+    {
+      "value": "ACT",
+      "synonyms": [
+        "ACT"
+      ]
+    },
+    {
+      "value": "ADT",
+      "synonyms": [
+        "ADT"
+      ]
+    },
+    {
+      "value": "AEDT",
+      "synonyms": [
+        "AEDT"
+      ]
+    },
+    {
+      "value": "AEST",
+      "synonyms": [
+        "AEST"
+      ]
+    },
+    {
+      "value": "AFT",
+      "synonyms": [
+        "AFT"
+      ]
+    },
+    {
+      "value": "AKDT",
+      "synonyms": [
+        "AKDT"
+      ]
+    },
+    {
+      "value": "AKST",
+      "synonyms": [
+        "AKST"
+      ]
+    },
+    {
+      "value": "AMST",
+      "synonyms": [
+        "AMST"
+      ]
+    },
+    {
+      "value": "AMT",
+      "synonyms": [
+        "AMT"
+      ]
+    },
+    {
+      "value": "AMT",
+      "synonyms": [
+        "AMT"
+      ]
+    },
+    {
+      "value": "ART",
+      "synonyms": [
+        "ART"
+      ]
+    },
+    {
+      "value": "AST",
+      "synonyms": [
+        "AST"
+      ]
+    },
+    {
+      "value": "AST",
+      "synonyms": [
+        "AST"
+      ]
+    },
+    {
+      "value": "AWDT",
+      "synonyms": [
+        "AWDT"
+      ]
+    },
+    {
+      "value": "AWST",
+      "synonyms": [
+        "AWST"
+      ]
+    },
+    {
+      "value": "AZOST",
+      "synonyms": [
+        "AZOST"
+      ]
+    },
+    {
+      "value": "AZT",
+      "synonyms": [
+        "AZT"
+      ]
+    },
+    {
+      "value": "BDT",
+      "synonyms": [
+        "BDT"
+      ]
+    },
+    {
+      "value": "BDT",
+      "synonyms": [
+        "BDT"
+      ]
+    },
+    {
+      "value": "BIOT",
+      "synonyms": [
+        "BIOT"
+      ]
+    },
+    {
+      "value": "BIT",
+      "synonyms": [
+        "BIT"
+      ]
+    },
+    {
+      "value": "BOT",
+      "synonyms": [
+        "BOT"
+      ]
+    },
+    {
+      "value": "BRST",
+      "synonyms": [
+        "BRST"
+      ]
+    },
+    {
+      "value": "BRT",
+      "synonyms": [
+        "BRT"
+      ]
+    },
+    {
+      "value": "BST",
+      "synonyms": [
+        "BST"
+      ]
+    },
+    {
+      "value": "BST",
+      "synonyms": [
+        "BST"
+      ]
+    },
+    {
+      "value": "BST",
+      "synonyms": [
+        "BST"
+      ]
+    },
+    {
+      "value": "BTT",
+      "synonyms": [
+        "BTT"
+      ]
+    },
+    {
+      "value": "CAT",
+      "synonyms": [
+        "CAT"
+      ]
+    },
+    {
+      "value": "CCT",
+      "synonyms": [
+        "CCT"
+      ]
+    },
+    {
+      "value": "CDT",
+      "synonyms": [
+        "CDT"
+      ]
+    },
+    {
+      "value": "CDT",
+      "synonyms": [
+        "CDT"
+      ]
+    },
+    {
+      "value": "CEDT",
+      "synonyms": [
+        "CEDT"
+      ]
+    },
+    {
+      "value": "CEST",
+      "synonyms": [
+        "CEST"
+      ]
+    },
+    {
+      "value": "CET",
+      "synonyms": [
+        "CET"
+      ]
+    },
+    {
+      "value": "CHADT",
+      "synonyms": [
+        "CHADT"
+      ]
+    },
+    {
+      "value": "CHAST",
+      "synonyms": [
+        "CHAST"
+      ]
+    },
+    {
+      "value": "CHOT",
+      "synonyms": [
+        "CHOT"
+      ]
+    },
+    {
+      "value": "ChST",
+      "synonyms": [
+        "ChST"
+      ]
+    },
+    {
+      "value": "CHUT",
+      "synonyms": [
+        "CHUT"
+      ]
+    },
+    {
+      "value": "CIST",
+      "synonyms": [
+        "CIST"
+      ]
+    },
+    {
+      "value": "CIT",
+      "synonyms": [
+        "CIT"
+      ]
+    },
+    {
+      "value": "CKT",
+      "synonyms": [
+        "CKT"
+      ]
+    },
+    {
+      "value": "CLST",
+      "synonyms": [
+        "CLST"
+      ]
+    },
+    {
+      "value": "CLT",
+      "synonyms": [
+        "CLT"
+      ]
+    },
+    {
+      "value": "COST",
+      "synonyms": [
+        "COST"
+      ]
+    },
+    {
+      "value": "COT",
+      "synonyms": [
+        "COT"
+      ]
+    },
+    {
+      "value": "CST",
+      "synonyms": [
+        "CST"
+      ]
+    },
+    {
+      "value": "CST",
+      "synonyms": [
+        "CST"
+      ]
+    },
+    {
+      "value": "CST",
+      "synonyms": [
+        "CST"
+      ]
+    },
+    {
+      "value": "CST",
+      "synonyms": [
+        "CST"
+      ]
+    },
+    {
+      "value": "CST",
+      "synonyms": [
+        "CST"
+      ]
+    },
+    {
+      "value": "CT",
+      "synonyms": [
+        "CT"
+      ]
+    },
+    {
+      "value": "CVT",
+      "synonyms": [
+        "CVT"
+      ]
+    },
+    {
+      "value": "CWST",
+      "synonyms": [
+        "CWST"
+      ]
+    },
+    {
+      "value": "CXT",
+      "synonyms": [
+        "CXT"
+      ]
+    },
+    {
+      "value": "DAVT",
+      "synonyms": [
+        "DAVT"
+      ]
+    },
+    {
+      "value": "DDUT",
+      "synonyms": [
+        "DDUT"
+      ]
+    },
+    {
+      "value": "DFT",
+      "synonyms": [
+        "DFT"
+      ]
+    },
+    {
+      "value": "EASST",
+      "synonyms": [
+        "EASST"
+      ]
+    },
+    {
+      "value": "EAST",
+      "synonyms": [
+        "EAST"
+      ]
+    },
+    {
+      "value": "EAT",
+      "synonyms": [
+        "EAT"
+      ]
+    },
+    {
+      "value": "ECT",
+      "synonyms": [
+        "ECT"
+      ]
+    },
+    {
+      "value": "ECT",
+      "synonyms": [
+        "ECT"
+      ]
+    },
+    {
+      "value": "EDT",
+      "synonyms": [
+        "EDT"
+      ]
+    },
+    {
+      "value": "EEDT",
+      "synonyms": [
+        "EEDT"
+      ]
+    },
+    {
+      "value": "EEST",
+      "synonyms": [
+        "EEST"
+      ]
+    },
+    {
+      "value": "EET",
+      "synonyms": [
+        "EET"
+      ]
+    },
+    {
+      "value": "EGST",
+      "synonyms": [
+        "EGST"
+      ]
+    },
+    {
+      "value": "EGT",
+      "synonyms": [
+        "EGT"
+      ]
+    },
+    {
+      "value": "EIT",
+      "synonyms": [
+        "EIT"
+      ]
+    },
+    {
+      "value": "EST",
+      "synonyms": [
+        "EST"
+      ]
+    },
+    {
+      "value": "EST",
+      "synonyms": [
+        "EST"
+      ]
+    },
+    {
+      "value": "FET",
+      "synonyms": [
+        "FET"
+      ]
+    },
+    {
+      "value": "FJT",
+      "synonyms": [
+        "FJT"
+      ]
+    },
+    {
+      "value": "FKST",
+      "synonyms": [
+        "FKST"
+      ]
+    },
+    {
+      "value": "FKST",
+      "synonyms": [
+        "FKST"
+      ]
+    },
+    {
+      "value": "FKT",
+      "synonyms": [
+        "FKT"
+      ]
+    },
+    {
+      "value": "FNT",
+      "synonyms": [
+        "FNT"
+      ]
+    },
+    {
+      "value": "GALT",
+      "synonyms": [
+        "GALT"
+      ]
+    },
+    {
+      "value": "GAMT",
+      "synonyms": [
+        "GAMT"
+      ]
+    },
+    {
+      "value": "GET",
+      "synonyms": [
+        "GET"
+      ]
+    },
+    {
+      "value": "GFT",
+      "synonyms": [
+        "GFT"
+      ]
+    },
+    {
+      "value": "GILT",
+      "synonyms": [
+        "GILT"
+      ]
+    },
+    {
+      "value": "GIT",
+      "synonyms": [
+        "GIT"
+      ]
+    },
+    {
+      "value": "GMT",
+      "synonyms": [
+        "GMT"
+      ]
+    },
+    {
+      "value": "GST",
+      "synonyms": [
+        "GST"
+      ]
+    },
+    {
+      "value": "GST",
+      "synonyms": [
+        "GST"
+      ]
+    },
+    {
+      "value": "GYT",
+      "synonyms": [
+        "GYT"
+      ]
+    },
+    {
+      "value": "HADT",
+      "synonyms": [
+        "HADT"
+      ]
+    },
+    {
+      "value": "HAEC",
+      "synonyms": [
+        "HAEC"
+      ]
+    },
+    {
+      "value": "HAST",
+      "synonyms": [
+        "HAST"
+      ]
+    },
+    {
+      "value": "HKT",
+      "synonyms": [
+        "HKT"
+      ]
+    },
+    {
+      "value": "HMT",
+      "synonyms": [
+        "HMT"
+      ]
+    },
+    {
+      "value": "HOVT",
+      "synonyms": [
+        "HOVT"
+      ]
+    },
+    {
+      "value": "HST",
+      "synonyms": [
+        "HST"
+      ]
+    },
+    {
+      "value": "IBST",
+      "synonyms": [
+        "IBST"
+      ]
+    },
+    {
+      "value": "ICT",
+      "synonyms": [
+        "ICT"
+      ]
+    },
+    {
+      "value": "IDT",
+      "synonyms": [
+        "IDT"
+      ]
+    },
+    {
+      "value": "IOT",
+      "synonyms": [
+        "IOT"
+      ]
+    },
+    {
+      "value": "IRDT",
+      "synonyms": [
+        "IRDT"
+      ]
+    },
+    {
+      "value": "IRKT",
+      "synonyms": [
+        "IRKT"
+      ]
+    },
+    {
+      "value": "IRST",
+      "synonyms": [
+        "IRST"
+      ]
+    },
+    {
+      "value": "IST",
+      "synonyms": [
+        "IST"
+      ]
+    },
+    {
+      "value": "IST",
+      "synonyms": [
+        "IST"
+      ]
+    },
+    {
+      "value": "IST",
+      "synonyms": [
+        "IST"
+      ]
+    },
+    {
+      "value": "JST",
+      "synonyms": [
+        "JST"
+      ]
+    },
+    {
+      "value": "KGT",
+      "synonyms": [
+        "KGT"
+      ]
+    },
+    {
+      "value": "KOST",
+      "synonyms": [
+        "KOST"
+      ]
+    },
+    {
+      "value": "KRAT",
+      "synonyms": [
+        "KRAT"
+      ]
+    },
+    {
+      "value": "KST",
+      "synonyms": [
+        "KST"
+      ]
+    },
+    {
+      "value": "LHST",
+      "synonyms": [
+        "LHST"
+      ]
+    },
+    {
+      "value": "LHST",
+      "synonyms": [
+        "LHST"
+      ]
+    },
+    {
+      "value": "LINT",
+      "synonyms": [
+        "LINT"
+      ]
+    },
+    {
+      "value": "MAGT",
+      "synonyms": [
+        "MAGT"
+      ]
+    },
+    {
+      "value": "MART",
+      "synonyms": [
+        "MART"
+      ]
+    },
+    {
+      "value": "MAWT",
+      "synonyms": [
+        "MAWT"
+      ]
+    },
+    {
+      "value": "MDT",
+      "synonyms": [
+        "MDT"
+      ]
+    },
+    {
+      "value": "MET",
+      "synonyms": [
+        "MET"
+      ]
+    },
+    {
+      "value": "MEST",
+      "synonyms": [
+        "MEST"
+      ]
+    },
+    {
+      "value": "MHT",
+      "synonyms": [
+        "MHT"
+      ]
+    },
+    {
+      "value": "MIST",
+      "synonyms": [
+        "MIST"
+      ]
+    },
+    {
+      "value": "MIT",
+      "synonyms": [
+        "MIT"
+      ]
+    },
+    {
+      "value": "MMT",
+      "synonyms": [
+        "MMT"
+      ]
+    },
+    {
+      "value": "MSK",
+      "synonyms": [
+        "MSK"
+      ]
+    },
+    {
+      "value": "MST",
+      "synonyms": [
+        "MST"
+      ]
+    },
+    {
+      "value": "MST",
+      "synonyms": [
+        "MST"
+      ]
+    },
+    {
+      "value": "MST",
+      "synonyms": [
+        "MST"
+      ]
+    },
+    {
+      "value": "MUT",
+      "synonyms": [
+        "MUT"
+      ]
+    },
+    {
+      "value": "MVT",
+      "synonyms": [
+        "MVT"
+      ]
+    },
+    {
+      "value": "MYT",
+      "synonyms": [
+        "MYT"
+      ]
+    },
+    {
+      "value": "NCT",
+      "synonyms": [
+        "NCT"
+      ]
+    },
+    {
+      "value": "NDT",
+      "synonyms": [
+        "NDT"
+      ]
+    },
+    {
+      "value": "NFT",
+      "synonyms": [
+        "NFT"
+      ]
+    },
+    {
+      "value": "NPT",
+      "synonyms": [
+        "NPT"
+      ]
+    },
+    {
+      "value": "NST",
+      "synonyms": [
+        "NST"
+      ]
+    },
+    {
+      "value": "NT",
+      "synonyms": [
+        "NT"
+      ]
+    },
+    {
+      "value": "NUT",
+      "synonyms": [
+        "NUT"
+      ]
+    },
+    {
+      "value": "NZDT",
+      "synonyms": [
+        "NZDT"
+      ]
+    },
+    {
+      "value": "NZST",
+      "synonyms": [
+        "NZST"
+      ]
+    },
+    {
+      "value": "OMST",
+      "synonyms": [
+        "OMST"
+      ]
+    },
+    {
+      "value": "ORAT",
+      "synonyms": [
+        "ORAT"
+      ]
+    },
+    {
+      "value": "PDT",
+      "synonyms": [
+        "PDT"
+      ]
+    },
+    {
+      "value": "PET",
+      "synonyms": [
+        "PET"
+      ]
+    },
+    {
+      "value": "PETT",
+      "synonyms": [
+        "PETT"
+      ]
+    },
+    {
+      "value": "PGT",
+      "synonyms": [
+        "PGT"
+      ]
+    },
+    {
+      "value": "PHOT",
+      "synonyms": [
+        "PHOT"
+      ]
+    },
+    {
+      "value": "PKT",
+      "synonyms": [
+        "PKT"
+      ]
+    },
+    {
+      "value": "PMDT",
+      "synonyms": [
+        "PMDT"
+      ]
+    },
+    {
+      "value": "PMST",
+      "synonyms": [
+        "PMST"
+      ]
+    },
+    {
+      "value": "PONT",
+      "synonyms": [
+        "PONT"
+      ]
+    },
+    {
+      "value": "PST",
+      "synonyms": [
+        "PST"
+      ]
+    },
+    {
+      "value": "PST",
+      "synonyms": [
+        "PST"
+      ]
+    },
+    {
+      "value": "PYST",
+      "synonyms": [
+        "PYST"
+      ]
+    },
+    {
+      "value": "PYT",
+      "synonyms": [
+        "PYT"
+      ]
+    },
+    {
+      "value": "RET",
+      "synonyms": [
+        "RET"
+      ]
+    },
+    {
+      "value": "ROTT",
+      "synonyms": [
+        "ROTT"
+      ]
+    },
+    {
+      "value": "SAKT",
+      "synonyms": [
+        "SAKT"
+      ]
+    },
+    {
+      "value": "SAMT",
+      "synonyms": [
+        "SAMT"
+      ]
+    },
+    {
+      "value": "SAST",
+      "synonyms": [
+        "SAST"
+      ]
+    },
+    {
+      "value": "SBT",
+      "synonyms": [
+        "SBT"
+      ]
+    },
+    {
+      "value": "SCT",
+      "synonyms": [
+        "SCT"
+      ]
+    },
+    {
+      "value": "SGT",
+      "synonyms": [
+        "SGT"
+      ]
+    },
+    {
+      "value": "SLST",
+      "synonyms": [
+        "SLST"
+      ]
+    },
+    {
+      "value": "SRET",
+      "synonyms": [
+        "SRET"
+      ]
+    },
+    {
+      "value": "SRT",
+      "synonyms": [
+        "SRT"
+      ]
+    },
+    {
+      "value": "SST",
+      "synonyms": [
+        "SST"
+      ]
+    },
+    {
+      "value": "SST",
+      "synonyms": [
+        "SST"
+      ]
+    },
+    {
+      "value": "SYOT",
+      "synonyms": [
+        "SYOT"
+      ]
+    },
+    {
+      "value": "TAHT",
+      "synonyms": [
+        "TAHT"
+      ]
+    },
+    {
+      "value": "THA",
+      "synonyms": [
+        "THA"
+      ]
+    },
+    {
+      "value": "TFT",
+      "synonyms": [
+        "TFT"
+      ]
+    },
+    {
+      "value": "TJT",
+      "synonyms": [
+        "TJT"
+      ]
+    },
+    {
+      "value": "TKT",
+      "synonyms": [
+        "TKT"
+      ]
+    },
+    {
+      "value": "TLT",
+      "synonyms": [
+        "TLT"
+      ]
+    },
+    {
+      "value": "TMT",
+      "synonyms": [
+        "TMT"
+      ]
+    },
+    {
+      "value": "TOT",
+      "synonyms": [
+        "TOT"
+      ]
+    },
+    {
+      "value": "TVT",
+      "synonyms": [
+        "TVT"
+      ]
+    },
+    {
+      "value": "UCT",
+      "synonyms": [
+        "UCT"
+      ]
+    },
+    {
+      "value": "ULAT",
+      "synonyms": [
+        "ULAT"
+      ]
+    },
+    {
+      "value": "USZ1",
+      "synonyms": [
+        "USZ1"
+      ]
+    },
+    {
+      "value": "UTC",
+      "synonyms": [
+        "UTC"
+      ]
+    },
+    {
+      "value": "UYST",
+      "synonyms": [
+        "UYST"
+      ]
+    },
+    {
+      "value": "UYT",
+      "synonyms": [
+        "UYT"
+      ]
+    },
+    {
+      "value": "UZT",
+      "synonyms": [
+        "UZT"
+      ]
+    },
+    {
+      "value": "VET",
+      "synonyms": [
+        "VET"
+      ]
+    },
+    {
+      "value": "VLAT",
+      "synonyms": [
+        "VLAT"
+      ]
+    },
+    {
+      "value": "VOLT",
+      "synonyms": [
+        "VOLT"
+      ]
+    },
+    {
+      "value": "VOST",
+      "synonyms": [
+        "VOST"
+      ]
+    },
+    {
+      "value": "VUT",
+      "synonyms": [
+        "VUT"
+      ]
+    },
+    {
+      "value": "WAKT",
+      "synonyms": [
+        "WAKT"
+      ]
+    },
+    {
+      "value": "WAST",
+      "synonyms": [
+        "WAST"
+      ]
+    },
+    {
+      "value": "WAT",
+      "synonyms": [
+        "WAT"
+      ]
+    },
+    {
+      "value": "WEDT",
+      "synonyms": [
+        "WEDT"
+      ]
+    },
+    {
+      "value": "WEST",
+      "synonyms": [
+        "WEST"
+      ]
+    },
+    {
+      "value": "WET",
+      "synonyms": [
+        "WET"
+      ]
+    },
+    {
+      "value": "WIT",
+      "synonyms": [
+        "WIT"
+      ]
+    },
+    {
+      "value": "WST",
+      "synonyms": [
+        "WST"
+      ]
+    },
+    {
+      "value": "YAKT",
+      "synonyms": [
+        "YAKT"
+      ]
+    },
+    {
+      "value": "YEKT",
+      "synonyms": [
+        "YEKT"
+      ]
+    },
+    {
+      "value": "Z",
+      "synonyms": [
+        "Z"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

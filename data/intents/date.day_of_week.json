@@ -1,0 +1,317 @@
+{
+  "userSays": [
+    {
+      "id": "42406909-4142-4445-985a-642f06998903",
+      "data": [
+        {
+          "text": "what day of the week is it "
+        },
+        {
+          "text": "today",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Sydney",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "145d2a03-36b8-4883-a037-fef7c570b665",
+      "data": [
+        {
+          "text": "what day of the week is it "
+        },
+        {
+          "text": "today",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "London",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "694c5508-3c3f-4237-9791-e3d15bd44a40",
+      "data": [
+        {
+          "text": "what day of the week is "
+        },
+        {
+          "text": "New Year",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a83052a4-b7a3-455a-898f-be3cf1479ca5",
+      "data": [
+        {
+          "text": "day of the week "
+        },
+        {
+          "text": "Thanksgiving",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d00ff55-d004-4c51-88c9-0d37ebc6134f",
+      "data": [
+        {
+          "text": "what day of week is it in "
+        },
+        {
+          "text": "Paris",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "809bd984-9f66-452a-ae72-004a564df1e8",
+      "data": [
+        {
+          "text": "what day "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "the week",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "today",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e26c3d59-a1ef-418e-b938-1ad4f3a10f5d",
+      "data": [
+        {
+          "text": "today\u0027s",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        },
+        {
+          "text": " day "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "the week",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "daa4bca6-a281-44db-b3ee-4c724b815e4d",
+      "data": [
+        {
+          "text": "day "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "the week",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "New York",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29d2f8b2-3c71-4cfe-a666-ddd2d64fb4f2",
+      "data": [
+        {
+          "text": "what day "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "the week",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "London",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1fa0bbc-806d-4a15-8a55-0f2d80ab06d7",
+      "data": [
+        {
+          "text": "day "
+        },
+        {
+          "text": "of",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "the week",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dd90a647-6419-41e5-b26f-a7bc2024105c",
+  "name": "date.day_of_week",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.day_of_week",
+      "affectedContexts": [
+        {
+          "name": "date-check",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location"
+        },
+        {
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

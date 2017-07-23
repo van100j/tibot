@@ -1,0 +1,58 @@
+{
+  "id": "7992998d-fb7d-49ec-b608-20276f5cff52",
+  "name": "dayofweek",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Monday",
+      "synonyms": [
+        "Monday",
+        "Mon"
+      ]
+    },
+    {
+      "value": "Tuesday",
+      "synonyms": [
+        "Tuesday",
+        "Tue"
+      ]
+    },
+    {
+      "value": "Wednesday",
+      "synonyms": [
+        "Wednesday",
+        "Wed"
+      ]
+    },
+    {
+      "value": "Thursday",
+      "synonyms": [
+        "Thursday",
+        "Thu"
+      ]
+    },
+    {
+      "value": "Friday",
+      "synonyms": [
+        "Friday",
+        "Fri"
+      ]
+    },
+    {
+      "value": "Saturday",
+      "synonyms": [
+        "Saturday",
+        "Sat"
+      ]
+    },
+    {
+      "value": "Sunday",
+      "synonyms": [
+        "Sunday",
+        "Sun"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

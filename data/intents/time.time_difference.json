@@ -1,0 +1,340 @@
+{
+  "userSays": [
+    {
+      "id": "5f7cca0f-0872-4831-8a6a-019dccc6a5bd",
+      "data": [
+        {
+          "text": "find time difference "
+        },
+        {
+          "text": "Paris",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Milan",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 4
+    },
+    {
+      "id": "0277c606-1340-47a4-b01d-7f5ee1ddb2eb",
+      "data": [
+        {
+          "text": "find time difference ",
+          "userDefined": false
+        },
+        {
+          "text": "Paris",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Sydney",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c42f8371-dea5-4c75-a1e1-c3ad81618dbc",
+      "data": [
+        {
+          "text": "find time difference "
+        },
+        {
+          "text": "Los Angeles",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Sydney",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2b5d12b-4bc0-4667-a57b-7b686ba56b97",
+      "data": [
+        {
+          "text": "find time difference "
+        },
+        {
+          "text": "Los Angeles",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": false
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Sydney",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9728678-55b6-40bf-bd65-0d8091745619",
+      "data": [
+        {
+          "text": "what is the time difference between ",
+          "userDefined": false
+        },
+        {
+          "text": "Los Angeles",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": false
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "Sydney",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "403d94e8-44d4-437c-ad97-50fdac80e188",
+      "data": [
+        {
+          "text": "tell "
+        },
+        {
+          "text": "me",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "time",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " difference between "
+        },
+        {
+          "text": "Singapore",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Munich",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78fa0f5c-851b-4b56-bcff-fd9bae577842",
+      "data": [
+        {
+          "text": "time difference between "
+        },
+        {
+          "text": "Moscow",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "London",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2fdb132d-d98f-4486-8a63-0937a61de9df",
+      "data": [
+        {
+          "text": "time difference "
+        },
+        {
+          "text": "Tokyo",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "New York",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cce17d12-9c52-4e87-a34d-1d8ceae381d6",
+      "data": [
+        {
+          "text": "Dresden",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "New York",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " time difference"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29b0d3ea-76d5-4039-8bab-37fdda624246",
+      "data": [
+        {
+          "text": "what is the time difference between "
+        },
+        {
+          "text": "Tokyo",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Berlin",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91961a31-f0ca-40e1-85a3-53517453578e",
+      "data": [
+        {
+          "text": "tell me the time difference between "
+        },
+        {
+          "text": "Amsterdam",
+          "alias": "location-1",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "London",
+          "alias": "location-2",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "63eb3eac-2493-4fa7-b5dd-057912f2daa3",
+  "name": "time.time_difference",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "time.time_difference",
+      "affectedContexts": [
+        {
+          "name": "time-difference",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.location",
+          "name": "location-1",
+          "value": "$location-1"
+        },
+        {
+          "dataType": "@sys.location",
+          "name": "location-2",
+          "value": "$location-2"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

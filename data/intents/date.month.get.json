@@ -1,0 +1,317 @@
+{
+  "userSays": [
+    {
+      "id": "95947ce3-7084-4787-9593-9537b3159fdb",
+      "data": [
+        {
+          "text": "I",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "\u0027"
+        },
+        {
+          "text": "d",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "like",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "to",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " know what "
+        },
+        {
+          "text": "month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "now",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb67c46f-4f0c-4b13-aaba-051f4103da19",
+      "data": [
+        {
+          "text": "current month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "14df5fd1-644b-4063-8196-da31ea68a263",
+      "data": [
+        {
+          "text": "do you know the "
+        },
+        {
+          "text": "current month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7fffee89-7164-4e56-8b65-4615f5fb887c",
+      "data": [
+        {
+          "text": "could",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you "
+        },
+        {
+          "text": "tell",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "me",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " what "
+        },
+        {
+          "text": "month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "now",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ac5d76d-d8c8-4e08-a9a3-5973b98526cf",
+      "data": [
+        {
+          "text": "tell",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "me",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "current month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05f4a352-2dac-4992-a4fd-829aa2fb8e90",
+      "data": [
+        {
+          "text": "what\u0027"
+        },
+        {
+          "text": "s",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "current month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f60c881e-f336-4021-957d-440c74a31d2d",
+      "data": [
+        {
+          "text": "what "
+        },
+        {
+          "text": "month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95c4598c-5547-4c43-ba30-a49a6b392fb9",
+      "data": [
+        {
+          "text": "what "
+        },
+        {
+          "text": "month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f0810d15-83fe-4b8c-b6c9-b4156108d8e1",
+      "data": [
+        {
+          "text": "tell me what is the "
+        },
+        {
+          "text": "month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " right now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86d67a16-39ad-46d3-a7d5-d6211ba41222",
+      "data": [
+        {
+          "text": "what "
+        },
+        {
+          "text": "month",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2df69fb0-ba8e-4d81-ac89-830b0fad6b05",
+  "name": "date.month.get",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.month.get",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false
+}

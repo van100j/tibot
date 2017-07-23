@@ -1,4 +1,7 @@
 <ul class="msgs" #chatMsgs>
+  <li class="bot">
+    ⏰  I'm a date bot — ask me something about date!
+  </li>
   <li
     *ngFor="let input of msgs"
     [ngClass]="{'user': input.type === 'user', 'bot': input.type === 'bot'}"

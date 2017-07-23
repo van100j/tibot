@@ -1,0 +1,328 @@
+{
+  "userSays": [
+    {
+      "id": "493e7b43-619a-42e6-b48b-f451491119ae",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "months",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " till "
+        },
+        {
+          "text": "New Year",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e66f5984-f5c1-4c6f-b51a-2e472de73319",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " until "
+        },
+        {
+          "text": "Friday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "688a7bf0-a5d7-4add-be42-b7617920962e",
+      "data": [
+        {
+          "text": "calculate number of "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " before "
+        },
+        {
+          "text": "July 22",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0ad85dc3-7940-4e12-92a1-9b4c942c051b",
+      "data": [
+        {
+          "text": "check how many "
+        },
+        {
+          "text": "weeks",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " till "
+        },
+        {
+          "text": "September 5th",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "60342861-ec10-4f90-84c5-f8e7fced8b3f",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "hours",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " until "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8574f41f-49da-48ea-9702-797f069c98fa",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "weeks",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " is it until "
+        },
+        {
+          "text": "next month",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7acbc56a-3bdc-40d1-9a3a-86bb3afedae5",
+      "data": [
+        {
+          "text": "how long until "
+        },
+        {
+          "text": "November 13",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9398fb31-e575-411c-a963-e26fb50b0681",
+      "data": [
+        {
+          "text": "number of "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " before the "
+        },
+        {
+          "text": "end of the month",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8150739a-c85b-4c1e-9b10-b23424f4ef65",
+      "data": [
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " until "
+        },
+        {
+          "text": "January 1st",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7e9bd85f-aba5-4b97-ab72-6c7a985c2603",
+      "data": [
+        {
+          "text": "tell me how many "
+        },
+        {
+          "text": "weeks",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " do we have before "
+        },
+        {
+          "text": "April 11th",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ece9056-5356-431e-bbb0-dce2fa166b2e",
+      "data": [
+        {
+          "text": "count how many "
+        },
+        {
+          "text": "months",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " is it before "
+        },
+        {
+          "text": "December 2020",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09d2e030-b5a0-4c19-bc8d-abb54ccaed9f",
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " left till the "
+        },
+        {
+          "text": "end of the year",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3ba82076-16d4-4d54-99f2-ba0f97345486",
+  "name": "date.until",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.until",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date"
+        },
+        {
+          "dataType": "@unit-time",
+          "name": "unit",
+          "value": "$unit",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

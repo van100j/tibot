@@ -7,30 +7,37 @@ import 'rxjs/add/operator/take';
 import 'rxjs/add/operator/filter';
 import 'rxjs/add/operator/retryWhen';
 import 'rxjs/add/operator/mergeMap';
+import 'rxjs/add/operator/delayWhen';
 import 'rxjs/add/observable/zip';
 import 'rxjs/add/observable/range';
 import 'rxjs/add/observable/timer';
+import 'rxjs/add/observable/interval';
 import 'rxjs/add/observable/dom/webSocket';
 
+import * as moment from 'moment';
+import 'moment-timezone';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'body',
+  templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit, OnDestroy {
   private ngUnsubscribe$: Subject<any> = new Subject();
   private ws$: Subject<any>;
   private wsSessionId: string;
   private wsUrl: string = environment.wsUrl;
+  private timezone: string = moment.tz.guess();
   @ViewChild('chatMsgs') private chatScrollContainer: ElementRef;
 
   userMsg: string = '';
   msgs: Array<Object> = [];
   botIsTyping: boolean = false;
 
+  constructor(private bodyEl: ElementRef) { }
+
   ngOnInit() {
     //
-    // The websocket Observable
+    // The WebSocket Observable
     this.ws$ = Observable.webSocket(this.wsUrl);
 
     //
@@ -47,19 +54,23 @@ export class AppComponent implements OnInit, OnDestroy {
     this.ws$.takeUntil(this.ngUnsubscribe$)
       .filter(r => r.type === 'bot')
       .retryWhen(err$ =>
-        Observable.zip(err$, Observable.range(1, 3), (e, n) => n)
-          // .do(n => console.log('retrying ' + n))
+        Observable.zip(err$, Observable.range(1, 10), (e, n) => n)
           .mergeMap(retryCount => Observable.timer(1000 * retryCount))
       )
+      .delayWhen(input => Observable.interval(100 + input.msg.length * 10))
       .subscribe(
-        (msg) => this.pushMsg(msg),
-        (err) => console.log(err),
-        () => console.log('complete')
+        (msg) => this.pushMsg(msg)
       );
   }
 
   onSubmit() {
-    const input = { type: 'user', sessionId: this.wsSessionId, msg: this.userMsg };
+    const input = {
+      type: 'user',
+      sessionId: this.wsSessionId,
+      msg: this.userMsg,
+      tz: this.timezone
+    };
+
     this.ws$.next(JSON.stringify(input));
     this.pushMsg(input, true);
     this.botIsTyping = true;
@@ -75,7 +86,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private scrollChatToBottom() {
     setTimeout(() => {
        try {
-         this.chatScrollContainer.nativeElement.scrollTop = this.chatScrollContainer.nativeElement.scrollHeight;
+        this.bodyEl.nativeElement.scrollTop = this.bodyEl.nativeElement.scrollHeight;
       } catch(err) { }
     }, 0);
   }

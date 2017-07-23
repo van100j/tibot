@@ -1,0 +1,324 @@
+{
+  "userSays": [
+    {
+      "id": "6f545a60-e465-455f-9cb0-ff60a2e8a821",
+      "data": [
+        {
+          "text": "it\u0027s "
+        },
+        {
+          "text": "5 o\u0027clock",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "London",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad8b0a3d-4552-48bf-a23e-ec0937c87332",
+      "data": [
+        {
+          "text": "check if it\u0027s "
+        },
+        {
+          "text": "9 pm",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "in",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Amsterdam",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bbfc7d82-ead1-44fb-a618-d0057e36e27b",
+      "data": [
+        {
+          "text": "can you take a look and check if it\u0027s "
+        },
+        {
+          "text": "7 pm",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Moscow",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " already"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "13aadda0-b3bb-4a2c-bcb7-3fb48a3069ec",
+      "data": [
+        {
+          "text": "check if it\u0027s "
+        },
+        {
+          "text": "6 am",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Palo Alto",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09ff41ce-f65b-409f-814a-0d6ae2517ee6",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "5 pm",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "677ec7dc-4d40-498e-b94c-47cd911ad6a5",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "6 o\u0027clock",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " right now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d8abf90-f412-4cf6-91c9-b8604ab6a167",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "5 o\u0027clock in the morning",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c6b38a0a-e3ef-4c27-a4da-f37e452893c6",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "3 p m",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "London",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03487e60-7ead-47e2-9f80-de23747683ed",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "4 pm",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "New York",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        },
+        {
+          "text": " now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e5cc6fb-3eb0-4a83-87fa-e8214bd81ee9",
+      "data": [
+        {
+          "text": "check if it\u0027s "
+        },
+        {
+          "text": "5 pm",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6c9dab2c-351f-4a4c-98e5-49b8dc5d8b05",
+  "name": "time.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "time.check",
+      "affectedContexts": [
+        {
+          "name": "time",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time"
+        },
+        {
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

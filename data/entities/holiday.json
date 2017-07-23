@@ -1,0 +1,324 @@
+{
+  "id": "c6a0f03a-ec18-4d78-8876-99b3edcff2c5",
+  "name": "holiday",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Thanksgiving day",
+      "synonyms": [
+        "Thanksgiving",
+        "Thanksgiving day"
+      ]
+    },
+    {
+      "value": "Halloween",
+      "synonyms": [
+        "Halloween"
+      ]
+    },
+    {
+      "value": "Columbus Day",
+      "synonyms": [
+        "Columbus day",
+        "Columbus"
+      ]
+    },
+    {
+      "value": "Black Friday",
+      "synonyms": [
+        "Black Friday"
+      ]
+    },
+    {
+      "value": "New Year\u0027s Eve",
+      "synonyms": [
+        "New Years Eve",
+        "New Year\u0027s Eve",
+        "New Year s Eve",
+        "New Year Eve"
+      ]
+    },
+    {
+      "value": "Easter",
+      "synonyms": [
+        "Easter",
+        "Easter Sunday"
+      ]
+    },
+    {
+      "value": "New Year",
+      "synonyms": [
+        "New Year"
+      ]
+    },
+    {
+      "value": "Christmas Eve",
+      "synonyms": [
+        "christmas eve"
+      ]
+    },
+    {
+      "value": "Christmas",
+      "synonyms": [
+        "Christmas",
+        "Christmases",
+        "X mas",
+        "x-mas",
+        "Xmas",
+        "Merry Christmas",
+        "Merry X mas",
+        "Merry x-mas",
+        "Merry Xmas"
+      ]
+    },
+    {
+      "value": "New Year",
+      "synonyms": [
+        "New Years",
+        "New Year s",
+        "New Year\u0027s",
+        "New Year"
+      ]
+    },
+    {
+      "value": "Valentine\u0027s Day",
+      "synonyms": [
+        "Valentine day",
+        "Valentine s day",
+        "Valentines day",
+        "Valentine\u0027s day",
+        "Saint Valentine",
+        "Saint Valentine day",
+        "Saint Valentine s day",
+        "Saint Valentine\u0027s day",
+        "Saint Valentines day",
+        "St Valentine s day",
+        "St Valentine\u0027s day",
+        "St Valentines day",
+        "Valentine"
+      ]
+    },
+    {
+      "value": "Martin Luther King",
+      "synonyms": [
+        "Martin Luther King Birthday",
+        "Martin Luther King s Birthday",
+        "Martin Luther King"
+      ]
+    },
+    {
+      "value": "Washington\u0027s Birthday",
+      "synonyms": [
+        "Washington s Birthday",
+        "Washington s Birthday day",
+        "Presidents Day",
+        "President s Day",
+        "Washington\u0027s Birthday"
+      ]
+    },
+    {
+      "value": "Memorial Day",
+      "synonyms": [
+        "Memorial Day"
+      ]
+    },
+    {
+      "value": "Independence Day",
+      "synonyms": [
+        "Independence Day"
+      ]
+    },
+    {
+      "value": "Labor Day",
+      "synonyms": [
+        "Labor Day"
+      ]
+    },
+    {
+      "value": "Veterans Day",
+      "synonyms": [
+        "Veteran\u0027s Day",
+        "Veteran s Day",
+        "Veteran Day",
+        "Day of Veterans",
+        "Day of Veteran\u0027s",
+        "Day of Veteran s",
+        "Veterans Day"
+      ]
+    },
+    {
+      "value": "Saint Patrick\u0027s Day",
+      "synonyms": [
+        "Saint s Patrick s Day",
+        "Saint s Patrick Day",
+        "Saint Patrick s Day",
+        "Saint Patrick Day",
+        "St. Patrick s Day",
+        "St. Patrick Day",
+        "St Patrick s Day",
+        "St Patrick Day",
+        "Patrick s Day"
+      ]
+    },
+    {
+      "value": "Women day",
+      "synonyms": [
+        "Women s day",
+        "day of Woomen",
+        "Woomen day"
+      ]
+    },
+    {
+      "value": "Fools\u0027 Day",
+      "synonyms": [
+        "Fools Day",
+        "Fool s Day",
+        "Fool\u0027s Day",
+        "April Fools\u0027 Day",
+        "April Fools Day",
+        "April Fool s Day",
+        "April Fool\u0027s Day",
+        "Fools\u0027 Day"
+      ]
+    },
+    {
+      "value": "Earth Day",
+      "synonyms": [
+        "Earth Day"
+      ]
+    },
+    {
+      "value": "Arbor Day",
+      "synonyms": [
+        "Arbor Day"
+      ]
+    },
+    {
+      "value": "May Day",
+      "synonyms": [
+        "May Day"
+      ]
+    },
+    {
+      "value": "Cinco de Mayo",
+      "synonyms": [
+        "Cinco de Mayo"
+      ]
+    },
+    {
+      "value": "Mother\u0027s Day",
+      "synonyms": [
+        "Mother s Day",
+        "Mother\u0027s Day"
+      ]
+    },
+    {
+      "value": "Children\u0027s Day",
+      "synonyms": [
+        "Children s Day",
+        "Children\u0027s Day"
+      ]
+    },
+    {
+      "value": "Flag Day",
+      "synonyms": [
+        "Flag Day"
+      ]
+    },
+    {
+      "value": "Helen Keller Day",
+      "synonyms": [
+        "Helen Keller Day"
+      ]
+    },
+    {
+      "value": "Father\u0027s Day",
+      "synonyms": [
+        "Father s Day",
+        "Father\u0027s Day"
+      ]
+    },
+    {
+      "value": "Equality Day",
+      "synonyms": [
+        "Women\u0027s Equality Day",
+        "Women s Equality Day",
+        "Equality Day"
+      ]
+    },
+    {
+      "value": "Patriot Day",
+      "synonyms": [
+        "Patriot Day"
+      ]
+    },
+    {
+      "value": "Citizenship Day",
+      "synonyms": [
+        "Constitution Day",
+        "Citizenship Day"
+      ]
+    },
+    {
+      "value": "German-American Day",
+      "synonyms": [
+        "German American Day",
+        "German-American Day"
+      ]
+    },
+    {
+      "value": "Leif Erikson Day",
+      "synonyms": [
+        "Leif Erikson Day"
+      ]
+    },
+    {
+      "value": "Election Day",
+      "synonyms": [
+        "Election Day"
+      ]
+    },
+    {
+      "value": "Pearl Harbor Day",
+      "synonyms": [
+        "Pearl Harbor Remembrance Day",
+        "Pearl Harbor Day",
+        "Pearl Harbor Day"
+      ]
+    },
+    {
+      "value": "Vernal Equinox",
+      "synonyms": [
+        "spring equinox",
+        "vernal equinox"
+      ]
+    },
+    {
+      "value": "Autumnal Equinox",
+      "synonyms": [
+        "autumn equinox",
+        "autumnal equinox"
+      ]
+    },
+    {
+      "value": "Winter Solstice",
+      "synonyms": [
+        "winter solstice"
+      ]
+    },
+    {
+      "value": "Summer Solstice",
+      "synonyms": [
+        "summer solstice"
+      ]
+    },
+    {
+      "value": "Labour Day",
+      "synonyms": [
+        "Labour Day"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

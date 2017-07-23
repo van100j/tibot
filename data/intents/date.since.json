@@ -1,0 +1,267 @@
+{
+  "userSays": [
+    {
+      "id": "89b655cc-c4c0-4cf5-8ffb-e44555e0c9e6",
+      "data": [
+        {
+          "text": "how do I know how many "
+        },
+        {
+          "text": "minutes",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " passed since the year "
+        },
+        {
+          "text": "2013",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d60d91ec-52a8-482a-a024-57cc3c532eaf",
+      "data": [
+        {
+          "text": "count the number of "
+        },
+        {
+          "text": "months",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " it\u0027s been since "
+        },
+        {
+          "text": "2015",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27949f92-da5d-4e33-93ee-65676bb5c08a",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "many",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "days",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " since "
+        },
+        {
+          "text": "September 7",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61887b21-2a18-4a24-b858-66e7ed93a4d5",
+      "data": [
+        {
+          "text": "calculate how "
+        },
+        {
+          "text": "many",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "weeks",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " it\u0027s been since "
+        },
+        {
+          "text": "last Friday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47618ce9-53c0-44f8-be1d-e10a830e44c5",
+      "data": [
+        {
+          "text": "tell",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "me",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " how "
+        },
+        {
+          "text": "many",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "hours",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " have passed since "
+        },
+        {
+          "text": "June 11th",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91d0c616-94b9-4580-8dde-8efa46fe49f9",
+      "data": [
+        {
+          "text": "check how "
+        },
+        {
+          "text": "many",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seconds",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " it\u0027s been since "
+        },
+        {
+          "text": "yesterday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cec8ba3-2ac0-4171-99a4-9d9eb1c6ce44",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "many",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "months",
+          "alias": "unit",
+          "meta": "@unit-time",
+          "userDefined": true
+        },
+        {
+          "text": " have passed since "
+        },
+        {
+          "text": "April 1st 2014",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "324ee2f7-56e6-44da-b11c-bb3703ff8335",
+  "name": "date.since",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.since",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date"
+        },
+        {
+          "dataType": "@unit-time",
+          "name": "unit",
+          "value": "$unit"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

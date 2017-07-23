@@ -1,0 +1,339 @@
+{
+  "userSays": [
+    {
+      "id": "d65d0629-0a11-4648-b63a-02632d294e16",
+      "data": [
+        {
+          "text": "what date is "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b7a43af-7487-44cc-ba6a-12433a8b0d13",
+      "data": [
+        {
+          "text": "do you know what "
+        },
+        {
+          "text": "day",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " it is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3e8829f-7c49-422b-8d9f-fe6cd9863f92",
+      "data": [
+        {
+          "text": "show me the date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e279428-6896-4744-87d6-17e9d4c57d29",
+      "data": [
+        {
+          "text": "what is the date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dce83725-49c2-4e2e-b92c-5564035f61fa",
+      "data": [
+        {
+          "text": "current date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87806536-9020-436f-a156-5c84b063472b",
+      "data": [
+        {
+          "text": "date "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0b2725d-598a-469a-b9d2-fe661dafdcfd",
+      "data": [
+        {
+          "text": "date now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "922fa733-403a-4d58-8b2d-2233bb31fcb0",
+      "data": [
+        {
+          "text": "the date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b7ac52d-54bb-4032-8371-c4a1f5162f81",
+      "data": [
+        {
+          "text": "what "
+        },
+        {
+          "text": "day",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fdd53327-860a-489d-84dd-e491a36c18d0",
+      "data": [
+        {
+          "text": "today\u0027s",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a30df79-2587-46c1-8137-733cd0668c76",
+      "data": [
+        {
+          "text": "what date is "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9edd3080-21f8-4e8d-a460-4c6d3f0385e7",
+      "data": [
+        {
+          "text": "what will be the date "
+        },
+        {
+          "text": "30 days from now",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd5dc77f-890f-419d-b44c-b5830b4a9f31",
+      "data": [
+        {
+          "text": "tomorrow\u0027s",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "685ec170-811f-4f03-888b-971143c2bd58",
+      "data": [
+        {
+          "text": "can you tell me the date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8d64942-402a-4857-bff3-6195af0be5d9",
+      "data": [
+        {
+          "text": "tell me the date "
+        },
+        {
+          "text": "19 weeks from today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "763d092d-03ee-4cd0-ac73-1808dc96cc4b",
+      "data": [
+        {
+          "text": "what is the current date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17ccbdcd-a32d-4fa1-bfd1-c73d66271dc7",
+      "data": [
+        {
+          "text": "do you know what "
+        },
+        {
+          "text": "day",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a96aa76-d8db-4061-bbd0-4016222bddf1",
+      "data": [
+        {
+          "text": "what is the day "
+        },
+        {
+          "text": "after tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6cefd963-b88e-4c13-abd1-8dfae697e7f1",
+      "data": [
+        {
+          "text": "what date is it on "
+        },
+        {
+          "text": "Thursday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "145efc9b-24fa-4ac0-a68f-96677996f3f9",
+      "data": [
+        {
+          "text": "what day was "
+        },
+        {
+          "text": "yesterday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e581f0c2-dd76-4bdc-bf5a-a202701d3369",
+      "data": [
+        {
+          "text": "what date is the "
+        },
+        {
+          "text": "next Friday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "944dec71-13fc-4633-b22f-5f2806f26c5b",
+  "name": "date.get",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.get",
+      "affectedContexts": [
+        {
+          "name": "date-get",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

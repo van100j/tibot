@@ -1,39 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  height: 100%;
+}
 body {
   margin: 0;
-  padding: 0;
   font: 14px arial, sans-serif;
+  height: 100%;
 }
 
 .msgs {
   list-style: none;
   margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: calc(100% - 60px);
-  overflow-y: scroll;
+  min-height: calc(100% - 80px);
+  padding: 0 0 80px;
+
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .msgs li {
-  display: inline-block;
-  float: left;
   margin: 15px;
   padding: 15px;
   background: #efefef;
   border-radius: 5px;
-  clear: both;
   font-weight: 300;
   max-width:75%;
+  width: auto;
   line-height: 18px;
+  align-self: flex-start;
 }
 
 .msgs li.bot {
-  float: right;
   background: #6666fe;
   color: #fff;
+  align-self: flex-end;
 }
 
 .msgs li.bot span {
@@ -47,16 +51,6 @@ body {
   animation-direction: alternate;
 }
 
-/*.msgs li.bot span:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 3px;
-  height: 3px;
-  background: #fff;
-  border-radius: 5px;
-}*/
-
 .msgs li.bot span:nth-child(2) {
   animation-delay: .1s
 }
@@ -65,7 +59,7 @@ body {
 }
 
 .chat-input {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -82,11 +76,12 @@ body {
   padding: 0 10px;
   box-sizing: border-box;
   border-top: 1px solid lightgray;
+  border-radius: 0;
   outline: 0;
 }
 
 .chat-input-text:focus {
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, .1)
+  box-shadow: 0 0 7px rgba(0, 0, 0, .15)
 }
 
 @keyframes typing {
