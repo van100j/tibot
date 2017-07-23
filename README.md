@@ -52,9 +52,11 @@ Open [http://localhost:4200/](http://localhost:4200/) in your browser, you shoul
 
 ## Live Demo
 
-Live demo of the app is available at [https://ti-bot.herokuapp.com/](https://ti-bot.herokuapp.com/)
+Live demo is available at [https://ti-bot.herokuapp.com/](https://ti-bot.herokuapp.com/)
 
-You can start by typing your date and time related questions. Like the following date related ones:
+You can start "talking" to the bot by typing your date and time related questions.
+
+For example, some like the following date related ones:
 * how many days between today and New Year
 * is it the 21st of July in Korea
 * what day of the week is it today in Skopje
