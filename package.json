@@ -1,10 +1,18 @@
 {
-  "name": "ws-chat-bot",
+  "name": "tibot",
   "version": "0.1.0",
-  "description": "Rxjs Websockets",
+  "description": "TiBot — The Date and Time  Bot",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/van100j/tibot.git"
+  },
+  "engines": {
+    "node": ">= 6.11.1",
+    "npm": ">= 3.0.0"
   },
   "author": "Vanco Stojkov <van100j@gmail.com>",
   "license": "ISC",
