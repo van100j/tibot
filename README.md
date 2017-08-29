@@ -29,9 +29,9 @@ You can start by cloning this repo:
 git clone git@github.com:van100j/tibot.git
 ```
 
-Create your `.env` file which contains your development environment, including the APIs keys, simply copy the `.env.sample` file to `.env`
+Create your `.env` file which contains your development environment, including the APIs keys, simply copy the `.env.example` file to `.env`
 ```bash
-cp .env.sample .env
+cp .env.example .env
 ```
 and update it accordingly with your API.AI and Google Maps API keys.
 
