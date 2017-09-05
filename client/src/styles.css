@@ -31,13 +31,13 @@ body {
   max-width:75%;
   width: auto;
   line-height: 18px;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 
 .msgs li.bot {
   background: #6666fe;
   color: #fff;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .msgs li.bot span {
