@@ -63,7 +63,7 @@ For example, some like the following date related ones:
 * is it Friday tomorrow in Sydney
 * what date is tomorrow
 * do you know if it's July now
-* how many minutes passed since the the year 2013
+* how many minutes passed since the year 2013
 * how many days till November 23
 * now it's 2014 year right
 * I wonder which year are we in
