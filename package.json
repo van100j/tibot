@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd client && yarn install && yarn build-prod"
+    "heroku-postbuild": "cd client && yarn install && yarn build"
   },
   "repository": {
     "type": "git",
