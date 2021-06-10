@@ -4,7 +4,8 @@
   "description": "TiBot — The Date and Time  Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && yarn install && yarn build-prod"
   },
   "repository": {
     "type": "git",
