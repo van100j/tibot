@@ -1,5 +1,5 @@
 const apiai = require("apiai")(process.env.APIAI_CLIENT_TOKEN);
-const uuidv4 = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid');
 
 // include and merge all intents:
 const date = require('./date');
