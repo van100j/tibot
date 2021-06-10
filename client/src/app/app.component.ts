@@ -1,24 +1,15 @@
 import { Component, OnInit, OnDestroy, ElementRef, ViewChild } from '@angular/core';
 import { environment } from '../environments/environment';
-import { Observable } from 'rxjs/Observable';
-import { Subject } from 'rxjs/Subject';
-import 'rxjs/add/operator/takeUntil';
-import 'rxjs/add/operator/take';
-import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/retryWhen';
-import 'rxjs/add/operator/mergeMap';
-import 'rxjs/add/operator/delayWhen';
-import 'rxjs/add/observable/zip';
-import 'rxjs/add/observable/range';
-import 'rxjs/add/observable/timer';
-import 'rxjs/add/observable/interval';
-import 'rxjs/add/observable/dom/webSocket';
+import { Subject, interval } from 'rxjs';
+import { webSocket } from 'rxjs/webSocket';
+import { retryBackoff } from 'backoff-rxjs';
+import { takeUntil, take, filter, delayWhen } from 'rxjs/operators';
 
 import * as moment from 'moment';
 import 'moment-timezone';
 
 @Component({
-  selector: 'body',
+  selector: 'app-root',
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit, OnDestroy {
@@ -29,38 +20,44 @@ export class AppComponent implements OnInit, OnDestroy {
   private timezone: string = moment.tz.guess();
   @ViewChild('chatMsgs') private chatScrollContainer: ElementRef;
 
-  userMsg: string = '';
+  userMsg = '';
   msgs: Array<Object> = [];
-  botIsTyping: boolean = false;
+  botIsTyping = false;
 
   constructor(private bodyEl: ElementRef) { }
 
   ngOnInit() {
     //
     // The WebSocket Observable
-    this.ws$ = Observable.webSocket(this.wsUrl);
+    this.ws$ = webSocket(this.wsUrl);
 
     //
     // Get the sessionId on connecting to the WS:
     //  we need to do this only once, and we are only
     //  concerned aboout the messages containing the sessionId
-    this.ws$.filter(r => r.type === 'sessionId')
-      .takeUntil(this.ngUnsubscribe$).take(1)
+    this.ws$.pipe(
+      filter(r => r.type === 'sessionId'),
+      takeUntil(this.ngUnsubscribe$),
+      take(1)
+    )
       .subscribe(r => this.wsSessionId = r.msg);
 
     //
     // Get responses from the bot, and show them
-    //  (attempt to reconnect on connection fail, retry 3 times)
-    this.ws$.takeUntil(this.ngUnsubscribe$)
-      .filter(r => r.type === 'bot')
-      .retryWhen(err$ =>
-        Observable.zip(err$, Observable.range(1, 10), (e, n) => n)
-          .mergeMap(retryCount => Observable.timer(1000 * retryCount))
-      )
-      .delayWhen(input => Observable.interval(100 + input.msg.length * 10))
-      .subscribe(
-        (msg) => this.pushMsg(msg)
-      );
+    //  (attempt to reconnect if connection fails or breaks)
+    this.ws$.pipe(
+      retryBackoff({
+        initialInterval: 100,
+        maxRetries: 10,
+        maxInterval: 1500,
+        resetOnSuccess: true
+      }),
+      takeUntil(this.ngUnsubscribe$),
+      filter(r => r.type === 'bot'),
+      delayWhen(input => interval(100 + input.msg.length * 10))
+    )
+      .subscribe(msg => this.pushMsg(msg));
+
   }
 
   onSubmit() {
@@ -85,14 +82,14 @@ export class AppComponent implements OnInit, OnDestroy {
 
   private scrollChatToBottom() {
     setTimeout(() => {
-       try {
-        this.bodyEl.nativeElement.scrollTop = this.bodyEl.nativeElement.scrollHeight;
-      } catch(err) { }
-    }, 0);
+      try {
+        window.scrollTo(0, document.body.scrollHeight);
+      } catch (err) { }
+    }, 100);
   }
 
   ngOnDestroy() {
-    this.ngUnsubscribe$.next();
+    this.ngUnsubscribe$.next('');
     this.ngUnsubscribe$.complete();
   }
 }
