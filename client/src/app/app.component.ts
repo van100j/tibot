@@ -68,7 +68,7 @@ export class AppComponent implements OnInit, OnDestroy {
       tz: this.timezone
     };
 
-    this.ws$.next(JSON.stringify(input));
+    this.ws$.next(input);
     this.pushMsg(input, true);
     this.botIsTyping = true;
   }
