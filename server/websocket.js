@@ -6,7 +6,6 @@ const { v4: uuidv4 } = require("uuid");
 const wss = new WebSocket.Server({ server: server });
 
 wss.on("connection", (ws) => {
-  
   ws.on("message", async (msg) => {
     try {
       const answer = await processRequest(msg);

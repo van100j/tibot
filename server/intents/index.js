@@ -59,8 +59,8 @@ const parseParameters = ({ fields }) => {
 };
 
 // Process the action
-const doIntent = (result, tz) => {
-  const { parameters: pars, action, fulfillmentText: fulfillment } = result;
+const doIntent = (response, tz) => {
+  const { parameters: pars, action, fulfillmentText: fulfillment } = response;
   const parameters = parseParameters(pars);
 
   return new Promise((resolve, reject) => {
