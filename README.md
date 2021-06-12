@@ -74,7 +74,7 @@ Or, these time related:
 * what time is it in Mountain View
 * find time difference Paris Tokyo
 
-The bot also replies to small talk (I'm using [API.AI built-in small talk module](https://api.ai/docs/reference/small-talk)):
+The bot also replies to small talk (using [Dialogflow built-in small talk module](https://cloud.google.com/dialogflow/es/docs/agents-small-talk)):
 * Hey, how are you
 * Who are you
 * Good evening
